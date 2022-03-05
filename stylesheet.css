@@ -1,0 +1,207 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+/*I need to size my page for flow and not a fixed state. Remove specific pixel sixing except for small padding and margins*/
+header {
+    background-color: rgb(0, 55, 80);
+    height: 120px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#kcblogo {
+    padding-right: 0px;
+    float: left;
+    list-style: none;
+    line-height: 150px;
+    display: inline;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#head ul:not(#subbtn,#dropsearch,#kcblogo) {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    text-align: center;
+    float: right;
+}
+#head li:not(#subbtn,#dropsearch) {
+    display: inline;
+    vertical-align: middle;
+}
+#head ul li a:not(#subbtn,#dropsearch) {
+    color: white;
+    text-decoration: none;
+    line-height: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight:300;
+    padding: 18px;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+#head ul li a:hover:not(#subbtn,#dropsearch) {
+    background-color: rgb(126, 184, 38);
+    position: relative;
+    line-height: 120px;
+}
+#subbtn{
+    text-decoration: none;
+    background-color: rgb(126, 184, 38);
+    border-radius: 5px;
+    padding: 22px 37px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 50px;
+}
+#subbtn:hover{
+    background-color: rgb(95, 217, 255);
+    transition-duration: 0.3s;
+
+}
+#dropsearch{
+    text-decoration: none;
+    color: white;
+    padding: 21px;
+    margin-left: 30px;
+    background-color: rgb(0, 40, 60);
+    border-radius: 5px;
+}
+#dropsearch:hover {
+    color: rgb(126, 184, 38);
+    transition-duration: .3s; 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+#divwelcome {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('kcbbanner1.jpeg');
+    padding: 144px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+h1.white{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+h1.blue{
+    color:rgb(0, 55, 80);
+    width: auto;
+    margin-bottom:10px;
+    float: left;
+    padding-right: 120px;
+    font-size: 70px;
+    
+}
+p.glance{
+    font-size: 85%;
+    font-weight: 200;
+    line-height: 150%;
+    margin: 10px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+
+}
+div.glance {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 220px;
+    padding-right: 200px;
+}
+h2.white {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+#kcbform{
+    display: table;
+    background-color: rgb(126, 184, 38);
+    padding: 20px;
+    margin: 20px;
+}
+.row{
+    display: table-row;
+}
+.row label{
+    display: table-cell;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
+.row input {
+    display: table-cell;
+    padding: 10px;
+    margin-left: 20px;
+    width: 300px;
+    }
+p.right{
+    font-size: 85%;
+    font-weight: 500;
+    line-height: 130%;
+    padding: 20px;
+    background-color: chocolate;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 400px;
+    margin-right: 10px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    border-style: groove;
+}
+.doclinks{
+    color: rgb(126, 184, 38);
+    text-decoration: none;
+}
+.doclinks:hover{
+    text-decoration: underline red  2px;
+}
+a:link{
+    color: orange;
+}
+#footer{
+    background-color: rgb(0, 55, 80); 
+    color: grey;
+    font-size: 80%;
+    text-align: center;
+    height: 90px;
+    clear: both;
+    padding: 15px;
+    line-height:90px;
+    align-content:space-evenly;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    font-weight: 100;
+}
+#footer div{
+    padding-top:0;
+    padding-bottom:0;
+}
+#footer a{
+    text-decoration: none;
+    color: grey;
+}
+#flogo a:not(#smd) {
+    padding: 7px;
+    background-color: rgba(150, 150, 150);
+    border-radius: 5px;
+    color: black;
+}
+#footer a:hover:not(#flogo){
+    color:white;
+    transition-duration: .3s;
+    text-decoration: underline;
+}
